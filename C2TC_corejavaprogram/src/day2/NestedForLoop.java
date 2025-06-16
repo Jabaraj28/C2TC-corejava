@@ -1,6 +1,6 @@
 package day2;
 
-public class NestedFoorLoop {
+public class NestedForLoop {
 
 	public static void main(String[] args) {
 		 
@@ -19,3 +19,4 @@ public class NestedFoorLoop {
 	}
 
 }
+
