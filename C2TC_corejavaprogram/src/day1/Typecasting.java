@@ -20,7 +20,7 @@ public class Typecasting {
 		int i4 = var1;
 		System.out.println(i4);
 		
-		// narrowing/explicit type casting
+		// narrowing/explicit typasting
 
 		double f1 = 10.52f;
 		long l = (long) f1;
