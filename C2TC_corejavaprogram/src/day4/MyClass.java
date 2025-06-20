@@ -1,17 +1,9 @@
-package Demo;
+package day4;
 
-public class student {
-	private static student s1 = new student();
-	
-	public static student getS1() {
-		return s1;
-	}
-	public static void setS1(student s1) {
-		student.s1 = s1;
-	}
+public class MyClass {
+
 	private int id;
 	private String name;
-	
 	public int getId() {
 		return id;
 	}
@@ -24,22 +16,19 @@ public class student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	@Override
 	public String toString() {
 		return "MyClass [id=" + id + ", name=" + name + "]";
 	}
-	private student() {
+	private MyClass() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
+	
+
+	
+
+	
+
 }
-
-		
-	
-    
-		
-	
-
-
